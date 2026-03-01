@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OutletKicks.shop | Sneaker Blog</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --primary:#111111;
+    --accent:#E63946;
+    --bg:#F8F9FA;
+    --card:#ffffff;
+    --text:#222;
+    --muted:#6C757D;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:var(--bg);
+    color:var(--text);
+}
+
+/* HEADER */
+header{
+    background:white;
+    padding:20px 8%;
+    border-bottom:1px solid #eee;
+}
+
+.logo{
+    font-family:'Playfair Display',serif;
+    font-size:28px;
+    font-weight:700;
+    color:var(--primary);
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    text-decoration:none;
+    margin-right:20px;
+    color:var(--muted);
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:var(--accent);
+}
+
+/* MAIN LAYOUT */
+.container{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:40px;
+    padding:50px 8%;
+}
+
+/* FEATURED POST */
+.featured{
+    background:var(--card);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 4px 20px rgba(0,0,0,0.05);
+    margin-bottom:40px;
+}
+
+.featured img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.featured-content{
+    padding:25px;
+}
+
+.featured-content h2{
+    font-size:26px;
+    margin-bottom:15px;
+}
+
+.featured-content p{
+    color:var(--muted);
+}
+
+/* BLOG CARDS */
+.post{
+    background:var(--card);
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:25px;
+    box-shadow:0 3px 15px rgba(0,0,0,0.05);
+    transition:0.3s;
+}
+
+.post:hover{
+    transform:translateY(-5px);
+}
+
+.post h3{
+    margin-bottom:10px;
+}
+
+.post p{
+    font-size:14px;
+    color:var(--muted);
+}
+
+/* SIDEBAR */
+.sidebar{
+    background:var(--card);
+    padding:25px;
+    border-radius:10px;
+    height:fit-content;
+    box-shadow:0 3px 15px rgba(0,0,0,0.05);
+}
+
+.sidebar h4{
+    margin-bottom:15px;
+    border-bottom:2px solid var(--accent);
+    padding-bottom:5px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    margin-bottom:10px;
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    color:var(--muted);
+    font-size:14px;
+}
+
+.sidebar ul li a:hover{
+    color:var(--accent);
+}
+
+/* FOOTER */
+footer{
+    background:#111;
+    color:white;
+    padding:60px 8% 20px;
+    margin-top:60px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:40px;
+}
+
+.footer-col h3,
+.footer-col h4{
+    margin-bottom:15px;
+    color:#E63946;
+}
+
+.footer-col p{
+    font-size:14px;
+    color:#ccc;
+    line-height:1.6;
+}
+
+.footer-col ul{
+    list-style:none;
+}
+
+.footer-col ul li{
+    margin-bottom:10px;
+}
+
+.footer-col ul li a{
+    text-decoration:none;
+    color:#bbb;
+    font-size:14px;
+}
+
+.footer-col ul li a:hover{
+    color:white;
+}
+
+.footer-bottom{
+    text-align:center;
+    border-top:1px solid #333;
+    margin-top:40px;
+    padding-top:20px;
+    font-size:14px;
+    color:#aaa;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+    .container{
+        grid-template-columns:1fr;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">OutletKicks</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Latest Releases</a>
+        <a href="#">Reviews</a>
+        <a href="#">Sneaker News</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="container">
+
+    <div>
+        <div class="featured">
+            <img src="https://via.placeholder.com/800x350">
+            <div class="featured-content">
+                <h2>Nike Air Max 2026 Official Release Details</h2>
+                <p>Everything you need to know about the upcoming Air Max drop including pricing, release dates, and colorways.</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <h3>TNike Air Max 2026:</h3>
+            <p>Nike Air Max 2026: Everything You Need to Know Before the Release
+
+The sneaker world is gearing up for one of the most anticipated drops of the year — the Nike Air Max 2026. Known for pushing boundaries in both performance and streetwear fashion, Nike’s Air Max line continues to dominate the global sneaker scene. This year’s model blends futuristic design with next-level comfort, making it one of the strongest releases in recent memory.
+
+A Fresh Design Direction
+
+The Air Max 2026 introduces a sleeker, more aerodynamic silhouette compared to previous models. The upper features a breathable engineered mesh combined with synthetic overlays for added durability. Nike has also refined the shape of the midsole, giving it a more aggressive, forward-moving aesthetic.
+
+One standout feature is the extended Air unit, which now stretches further across the heel for improved cushioning and shock absorption. The result? A smoother stride and all-day comfort.
+
+Comfort & Performance Upgrades
+
+Nike has made significant improvements in cushioning technology. The new Air Max 2026 includes:
+
+Enhanced Air cushioning system
+
+Lightweight foam midsole
+
+Improved heel stability
+
+Flexible outsole for better traction
+
+Whether you're wearing them for running, walking, or everyday casual styling, this pair is built for versatility.</p>
+        </div>
+
+        <div class="post">
+            <h3>Adidas vs Nike: 2026 Performance Comparison</h3>
+            <p>We compare this year’s biggest performance sneakers to help you choose the best pair.</p>
+        </div>
+
+        <div class="post">
+            <h3>How to Spot Fake Sneakers Online</h3>
+            <p>A complete guide to identifying authentic sneakers and avoiding scams.</p>
+        </div>
+    </div>
+
+    <aside class="sidebar">
+        <h4>Categories</h4>
+        <ul>
+            <li><a href="#">Sneaker News</a></li>
+            <li><a href="#">Release Dates</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Style Guides</a></li>
+        </ul>
+
+        <h4 style="margin-top:30px;">Recent Posts</h4>
+        <ul>
+            <li><a href="#">Air Jordan 1 Retro Review</a></li>
+            <li><a href="#">Best Running Shoes 2026</a></li>
+            <li><a href="#">Sneaker Resale Market Trends</a></li>
+        </ul>
+    </aside>
+
+</section>
+
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>OutletKicks.shop</h3>
+            <p>Your trusted sneaker blog covering the latest releases, in-depth reviews, market trends, and exclusive updates from the sneaker world.
+
+
+
+
+
+
+
+
+
+
+<a href="http://565751.shop/">565751.shop</a>
+<a href="http://565752.shop/">565752.shop</a>
+<a href="http://565753.shop/">565753.shop</a>
+<a href="http://565754.shop/">565754.shop</a>
+<a href="http://565755.shop/">565755.shop</a>
+<a href="http://565756.shop/">565756.shop</a>
+<a href="http://565757.shop/">565757.shop</a>
+<a href="http://565758.shop/">565758.shop</a>
+<a href="http://565759.shop/">565759.shop</a>
+<a href="http://565760.shop/">565760.shop</a>
+<a href=""></a
+
+
+
+
+
+
+
+
+            </p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Write for Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Categories</h4>
+            <ul>
+                <li><a href="#">Sneaker News</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Release Dates</a></li>
+                <li><a href="#">Buying Guides</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Stay Connected</h4>
+            <p>Subscribe for weekly sneaker updates and exclusive content.</p>
+            <input type="email" placeholder="Enter your email" style="padding:8px;width:100%;margin-top:10px;border:none;border-radius:5px;">
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 OutletKicks.shop | All Rights Reserved
+    </div>
+</footer>
+
+</body>
+</html>
